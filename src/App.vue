@@ -200,7 +200,7 @@
                 color: whitesmoke;
 
                 // Alignment - Bottom align
-                padding: 14px;
+                padding: 14px 0;
                 position: absolute;
                 bottom: 0;
                 width: 100%;
