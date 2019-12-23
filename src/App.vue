@@ -60,6 +60,7 @@
 
         #title-text
         {
+            font-size: 40px;
 
         }
     }
