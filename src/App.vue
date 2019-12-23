@@ -16,6 +16,15 @@
     {
         // Create variable from imported config
         config = config;
+
+        /**
+         * Initialize
+         */
+        mounted()
+        {
+            document.title = config.title;
+            console.log()
+        }
     }
 </script>
 
