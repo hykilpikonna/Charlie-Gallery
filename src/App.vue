@@ -190,6 +190,8 @@
         margin: auto;
         max-width: 1400px;
 
+        background: #00000014;
+
         .artwork
         {
             display: inline-block;
@@ -199,7 +201,7 @@
             .image
             {
                 height: 40vh;
-                width: 30vh;
+                // width: 30vh; dynamically updated
 
                 // Alignment for description
                 position: relative;
@@ -227,8 +229,6 @@
 
     #footer
     {
-        margin-top: 10vh;
-
         // Shadow
         box-shadow: 0 2px 12px 0 rgba(0,0,0,.1);
     }
