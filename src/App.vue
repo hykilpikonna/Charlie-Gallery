@@ -80,12 +80,14 @@
         get titleStyle()
         {
             let dim = `rgba(0, 0, 0, ${config.title.dim / 100})`;
-            dim = `linear-gradient(${dim}, ${dim})`;
+            let url = require('./assets/' + config.title.background);
 
-            return `padding: ${config.title.height / 2 - 5}vh 0;`
-                + `background-image: ${dim}, url(${require('./assets/' + config.title.background)});`
-                + `color: ${config.title.text_color};`
-                + `font-family: ${config.title.font};`;
+            return {
+                'padding': (config.title.height / 2 - 5) + 'vh 0',
+                'background-image': `linear-gradient(${dim}, ${dim}), url(${url})`,
+                'color': config.title.text_color,
+                'font-family': config.title.font
+            };
         }
     }
 </script>
