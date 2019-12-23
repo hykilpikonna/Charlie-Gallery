@@ -5,14 +5,16 @@
             <div id="title-sub">{{config.title.sub}}</div>
         </div>
 
-        <el-card class="artwork" :body-style="{padding: '0px'}"
-                 v-for="artwork in artworks">
-            <div class="image" :style="{'background-image': artwork.imgThumb}"></div>
-            <div style="padding: 14px;">
-                <div class="title">{{artwork.title}}</div>
-                <div class="time">{{artwork.rawDate}}</div>
-            </div>
-        </el-card>
+        <div id="artwork-container">
+            <el-card class="artwork" :body-style="{padding: '0px'}"
+                     v-for="artwork in artworks">
+                <div class="image" :style="{'background-image': artwork.imgThumb}"></div>
+                <div style="padding: 14px;">
+                    <div class="title">{{artwork.title}}</div>
+                    <div class="time">{{artwork.rawDate}}</div>
+                </div>
+            </el-card>
+        </div>
 
         <div id="footer" :style="footerStyle">
 
@@ -170,20 +172,24 @@
         }
     }
 
-    .artwork
+    #artwork-container
     {
-        display: inline-block;
-        margin: 2vh;
 
-        .image
+        .artwork
         {
-            height: 30vh;
-            width: 30vh;
-        }
+            display: inline-block;
+            margin: 2vh;
 
-        .time
-        {
-            font-size: 12px;
+            .image
+            {
+                height: 30vh;
+                width: 30vh;
+            }
+
+            .time
+            {
+                font-size: 12px;
+            }
         }
     }
 
