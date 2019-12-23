@@ -124,6 +124,9 @@
         background-repeat: no-repeat;
         background-size: cover;
 
+        // Alignment
+        margin-bottom: 30px;
+
         #title-text
         {
             font-size: 46px;
