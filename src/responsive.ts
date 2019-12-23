@@ -16,7 +16,7 @@ export default class Responsive
         if (currentWidth < vhToPx(this.margin) * 2 + this.minWidth) return 1;
 
         // Loop through all the possible numbers on screen
-        [1, 2, 3, 4, 5, 6].forEach(i =>
+        [1, 2, 3, 4, 5, 6].reverse().forEach(i =>
         {
             // Calculate margin width
             let margins = vhToPx(this.margin) * (i + 1);
