@@ -64,6 +64,12 @@
             // Parse artworks
             config.artworks.forEach(a =>
             {
+                // Check null case
+                if (a.date == null) Error('Error: No date specified.');
+                if (a.title == null) a.title = config.artwork.default_title;
+                if (a.format == null) a.format = config.artwork.default_format;
+
+                // Add it
                 this.artworks.push(new Artwork(a.date, a.title, a.format));
             })
         }
