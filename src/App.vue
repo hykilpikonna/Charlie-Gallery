@@ -62,7 +62,7 @@
 
         #title-text
         {
-            font-size: 40px;
+            font-size: 46px;
         }
 
         #title-sub

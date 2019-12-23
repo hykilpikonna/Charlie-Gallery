@@ -5,7 +5,7 @@
         "sub": "This is a subtitle",
         "height": 80,
         "background": "title.jpeg",
-        "dim": 50,
+        "dim": 60,
         "text_color": "white",
         "font": "'Neucha', cursive"
     }
