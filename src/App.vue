@@ -173,14 +173,12 @@
     .artwork
     {
         display: inline-block;
-
-        width: 20vh;
-
         margin: 8vh;
 
         .image
         {
-            width: 100%;
+            height: 30vh;
+            width: 30vh;
         }
     }
 
