@@ -10,6 +10,12 @@ export default class Responsive
         this.margin = margin;
     }
 
+    /**
+     * Get the maximum number of blocks on screen so that each block's
+     * width > minWidth.
+     *
+     * @param currentWidth
+     */
     getNumberOnScreen(currentWidth: number)
     {
         // Screen too small
