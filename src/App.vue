@@ -1,7 +1,7 @@
 <template>
     <div id="app">
         <div id="title">
-
+            <div>{{config.title}}</div>
         </div>
     </div>
 </template>
@@ -9,10 +9,13 @@
 <script lang="ts">
     import {Component, Vue} from 'vue-property-decorator';
 
+    import config from '@/content/charlie-config.json';
+
     @Component
     export default class App extends Vue
     {
-
+        // Create variable from imported config
+        config = config;
     }
 </script>
 
