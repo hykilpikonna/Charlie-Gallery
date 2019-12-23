@@ -27,7 +27,8 @@
     ],
 
     // Custom
-    "resolveJsonModule": true
+    "resolveJsonModule": true,
+    "strictPropertyInitialization": false
   },
   "include": [
     "src/**/*.ts",
