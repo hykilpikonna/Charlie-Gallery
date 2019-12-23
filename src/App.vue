@@ -21,6 +21,14 @@
         title: string;
         format: string;
 
+        constructor(date: string, title: string, format: string)
+        {
+            this.rawDate = date;
+            this.title = title;
+            this.format = format;
+        }
+    }
+
     @Component
     export default class App extends Vue
     {
