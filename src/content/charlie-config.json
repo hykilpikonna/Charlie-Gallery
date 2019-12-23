@@ -6,6 +6,7 @@
         "height": 80,
         "background": "title.jpeg",
         "dim": 50,
-        "text_color": "white"
+        "text_color": "white",
+        "font": "'Neucha', cursive"
     }
 }

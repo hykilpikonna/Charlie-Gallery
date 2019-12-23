@@ -37,7 +37,8 @@
 
             return `padding: ${config.title.height / 2 - 5}vh 0;`
                 + `background-image: ${dim}, url(${require('./assets/' + config.title.background)});`
-                + `color: ${config.title.text_color}`;
+                + `color: ${config.title.text_color};`
+                + `font-family: ${config.title.font};`;
         }
     }
 </script>
