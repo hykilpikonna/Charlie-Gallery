@@ -7,7 +7,7 @@
 
         <el-card class="artwork" :body-style="{padding: '0px'}"
                  v-for="artwork in artworks">
-            <img :src="artwork.imgThumb" class="image" alt="">
+            <div class="image" :style="{'background-image': artwork.imgThumb}"></div>
             <div style="padding: 14px;">
                 <span>{{artwork.title}}</span>
                 <div class="bottom clearfix">
@@ -63,7 +63,7 @@
         {
             try
             {
-                return require('./assets/' + img);
+                return 'url(' + require('./assets/' + img) + ')';
             }
             catch (e)
             {
