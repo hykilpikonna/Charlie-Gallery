@@ -12,6 +12,15 @@
 
     import config from '@/content/charlie-config.json';
 
+    /**
+     * Data class for artworks
+     */
+    class Artwork
+    {
+        rawDate: string;
+        title: string;
+        format: string;
+
     @Component
     export default class App extends Vue
     {
