@@ -27,6 +27,11 @@
             this.title = title;
             this.format = format;
         }
+
+        get date()
+        {
+            return new Date(this.rawDate);
+        }
     }
 
     @Component
