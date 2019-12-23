@@ -37,6 +37,18 @@ export default class Responsive
         // Screen too big
         return 6;
     }
+
+    /**
+     * Get the width of each block on screen so that each block's
+     * width > minWidth and there are maximum number of blocks displayed.
+     *
+     * @param currentWidth
+     */
+    getBlockWidth(currentWidth: number = document.documentElement.clientWidth)
+    {
+        let count = this.getNumberOnScreen(currentWidth);
+        return (currentWidth - vhToPx(this.margin) * (count + 1)) / count;
+    }
 }
 
 /**
