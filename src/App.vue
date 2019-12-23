@@ -135,6 +135,15 @@
 </script>
 
 <style lang="scss">
+    // Global div property
+    div
+    {
+        // Center and scale the image nicely
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
     #app
     {
         font-family: 'Avenir', Helvetica, Arial, sans-serif;
