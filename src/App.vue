@@ -37,6 +37,11 @@
         {
             return require(`./assets/${this.rawDate}.pic.${this.format}`);
         }
+
+        get imgFull()
+        {
+            return require(`./assets/${this.rawDate}.pic_hd.${this.format}`);
+        }
     }
 
     @Component
