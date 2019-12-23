@@ -154,7 +154,7 @@
     {
 
         // Alignment
-        margin-bottom: 10vh;
+        margin-bottom: -10vh;
 
         // Shadow
         box-shadow: 0 2px 12px 0 rgba(0,0,0,.1);
