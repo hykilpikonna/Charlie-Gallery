@@ -1,7 +1,7 @@
 <template>
     <div id="app">
-        <div id="title">
-            <div>{{config.title}}</div>
+        <div id="title" :style="`height: ${config.title.height}vh`">
+            <div>{{config.title.text}}</div>
         </div>
     </div>
 </template>
@@ -22,7 +22,8 @@
          */
         mounted()
         {
-            document.title = config.title;
+            // Set title
+            document.title = config.title.text;
         }
     }
 </script>
@@ -40,6 +41,5 @@
     #title
     {
         background: lightblue;
-        height: 100vh;
     }
 </style>
