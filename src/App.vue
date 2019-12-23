@@ -1,7 +1,7 @@
 <template>
     <div id="app">
         <div id="title" :style="titleStyle">
-            <div>{{config.title.text}}</div>
+            <div id="title-text">{{config.title.text}}</div>
         </div>
     </div>
 </template>
@@ -35,7 +35,8 @@
             dim = `linear-gradient(${dim}, ${dim})`;
 
             return `height: ${config.title.height}vh;`
-                + `background-image: ${dim}, url(${require('./assets/' + config.title.background)});`;
+                + `background-image: ${dim}, url(${require('./assets/' + config.title.background)});`
+                + `color: ${config.title.text_color}`;
         }
     }
 </script>

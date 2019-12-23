@@ -4,6 +4,7 @@
         "text": "Charlie's Gallery",
         "height": 80,
         "background": "title.jpeg",
-        "dim": 50
+        "dim": 50,
+        "text_color": "white"
     }
 }
