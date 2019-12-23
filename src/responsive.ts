@@ -19,7 +19,7 @@ export default class Responsive
     getNumberOnScreen(currentWidth: number = document.documentElement.clientWidth)
     {
         // Screen too small
-        if (currentWidth < vhToPx(this.margin) * 2 + this.minWidth) return 1;
+        if (currentWidth < vhToPx(this.margin) * 2 + vhToPx(this.minWidth)) return 1;
 
         // Loop through all the possible numbers on screen
         [1, 2, 3, 4, 5, 6].reverse().forEach(i =>
@@ -31,7 +31,7 @@ export default class Responsive
             let blockWidth = (currentWidth - margins) / i;
 
             // Return block width
-            if (blockWidth > this.minWidth) return i;
+            if (blockWidth > vhToPx(this.minWidth)) return i;
         });
 
         // Screen too big
