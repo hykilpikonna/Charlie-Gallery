@@ -62,7 +62,7 @@
             document.title = config.title.text;
 
             // Parse artworks
-            config.artworks.forEach(a =>
+            config.artworks.forEach((a: any) =>
             {
                 // Check null case
                 if (a.date == null) Error('Error: No date specified.');
