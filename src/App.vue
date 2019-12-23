@@ -173,7 +173,7 @@
     .artwork
     {
         display: inline-block;
-        margin: 3vh;
+        margin: 2vh;
 
         .image
         {
