@@ -188,11 +188,22 @@
             {
                 height: 40vh;
                 width: 30vh;
+
+                // Alignment for description
+                position: relative;
             }
 
             .description
             {
+                // Color
+                background: #00000082;
+                color: whitesmoke;
+
+                // Alignment - Bottom align
                 padding: 14px;
+                position: absolute;
+                bottom: 0;
+                width: 100%;
 
                 .time
                 {
