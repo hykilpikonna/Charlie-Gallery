@@ -26,6 +26,9 @@
             document.title = config.title.text;
         }
 
+        /**
+         * Style for title
+         */
         get titleStyle()
         {
             let dim = `rgba(0, 0, 0, ${config.title.dim / 100})`;
@@ -49,7 +52,7 @@
 
     #title
     {
-        /* Center and scale the image nicely */
+        // Center and scale the image nicely
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
