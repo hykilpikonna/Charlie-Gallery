@@ -26,6 +26,9 @@ export default class Responsive
             // Return block width
             if (blockWidth > this.minWidth && blockWidth < this.maxWidth) return blockWidth;
         });
+
+        // Screen too big
+        return this.maxWidth;
     }
 }
 
