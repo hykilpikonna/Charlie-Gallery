@@ -50,12 +50,24 @@
 
         get imgThumb()
         {
-            return require(`./assets/${this.rawDate}.pic.${this.format}`);
+            return this.getURL(`${this.rawDate}.pic.${this.format}`)
         }
 
         get imgFull()
         {
-            return require(`./assets/${this.rawDate}.pic_hd.${this.format}`);
+            return this.getURL(`${this.rawDate}.pic_hd.${this.format}`);
+        }
+
+        getURL(img: string)
+        {
+            try
+            {
+                return require('./assets/' + img);
+            }
+            catch (e)
+            {
+                return './404.jpg'
+            }
         }
     }
 
