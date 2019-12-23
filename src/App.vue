@@ -167,8 +167,16 @@
 
     .artwork
     {
-        margin-left: 10vh;
-        margin-right: 10vh;
+        display: inline-block;
+
+        width: 20vh;
+
+        margin: 8vh;
+
+        .image
+        {
+            width: 100%;
+        }
     }
 
     #footer
