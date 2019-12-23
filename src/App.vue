@@ -99,7 +99,10 @@
 
                 // Add it
                 this.artworks.push(new Artwork(a.date, a.title, a.format));
-            })
+            });
+
+            // Sort by date
+            this.artworks.sort((a, b) => b.date.getTime() - a.date.getTime());
         }
 
         /**
