@@ -9,11 +9,8 @@
                  v-for="artwork in artworks">
             <div class="image" :style="{'background-image': artwork.imgThumb}"></div>
             <div style="padding: 14px;">
-                <span>{{artwork.title}}</span>
-                <div class="bottom clearfix">
-                    <time class="time">{{artwork.rawDate}}</time>
-                    <el-button type="text" class="button">操作按钮</el-button>
-                </div>
+                <div class="title">{{artwork.title}}</div>
+                <div class="time">{{artwork.rawDate}}</div>
             </div>
         </el-card>
 
