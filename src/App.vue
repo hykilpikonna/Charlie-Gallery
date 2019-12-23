@@ -1,6 +1,6 @@
 <template>
     <div id="app">
-        <div id="title" :style="`height: ${config.title.height}vh`">
+        <div id="title" :style="titleStyle">
             <div>{{config.title.text}}</div>
         </div>
     </div>
@@ -25,6 +25,12 @@
             // Set title
             document.title = config.title.text;
         }
+
+        get titleStyle()
+        {
+            return `height: ${config.title.height}vh;`
+                + `background: url(${require('./assets/' + config.title.background)})`;
+        }
     }
 </script>
 
@@ -40,6 +46,5 @@
 
     #title
     {
-        background: lightblue;
     }
 </style>
