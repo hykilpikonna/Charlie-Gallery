@@ -60,6 +60,12 @@
         {
             // Set title
             document.title = config.title.text;
+
+            // Parse artworks
+            config.artworks.forEach(a =>
+            {
+                this.artworks.push(new Artwork(a.date, a.title, a.format));
+            })
         }
 
         /**
