@@ -32,6 +32,11 @@
         {
             return new Date(this.rawDate);
         }
+
+        get imgThumb()
+        {
+            return require(`./assets/${this.rawDate}.pic.${this.format}`);
+        }
     }
 
     @Component
