@@ -9,6 +9,12 @@
         "text_color": "white",
         "font": "'Neucha', cursive"
     },
+    "footer":
+    {
+        "text": "",
+        "height": 10,
+        "background": "lightgray"
+    },
     "artwork":
     {
         "default_title": "Untitled",
