@@ -34,8 +34,7 @@
             let dim = `rgba(0, 0, 0, ${config.title.dim / 100})`;
             dim = `linear-gradient(${dim}, ${dim})`;
 
-            return `height: ${config.title.height}vh;`
-                + `line-height: ${config.title.height}vh;` // Center align
+            return `padding: ${config.title.height / 2 - 5}vh 0;`
                 + `background-image: ${dim}, url(${require('./assets/' + config.title.background)});`
                 + `color: ${config.title.text_color}`;
         }
