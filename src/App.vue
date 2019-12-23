@@ -23,7 +23,6 @@
         mounted()
         {
             document.title = config.title;
-            console.log()
         }
     }
 </script>
@@ -40,6 +39,7 @@
 
     #title
     {
-
+        background: lightblue;
+        height: 100vh;
     }
 </style>
