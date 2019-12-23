@@ -5,7 +5,7 @@
             <div id="title-sub">{{config.title.sub}}</div>
         </div>
 
-        <div id="footer">
+        <div id="footer" :style="footerStyle">
 
         </div>
     </div>
@@ -92,6 +92,17 @@
                 'color': config.title.text_color,
                 'font-family': config.title.font
             };
+        }
+
+        /**
+         * Style for footer
+         */
+        get footerStyle()
+        {
+            return {
+                height: config.footer.height + 'vh',
+                background: config.footer.background
+            }
         }
     }
 </script>
