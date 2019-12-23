@@ -4,6 +4,10 @@
             <div id="title-text">{{config.title.text}}</div>
             <div id="title-sub">{{config.title.sub}}</div>
         </div>
+
+        <div id="footer">
+
+        </div>
     </div>
 </template>
 
@@ -118,5 +122,10 @@
         {
             font-size: 20px;
         }
+    }
+
+    #footer
+    {
+        
     }
 </style>
