@@ -62,7 +62,11 @@
         #title-text
         {
             font-size: 40px;
+        }
 
+        #title-sub
+        {
+            font-size: 20px;
         }
     }
 </style>
