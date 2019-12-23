@@ -127,6 +127,9 @@
         // Alignment
         margin-bottom: 10vh;
 
+        // Shadow
+        box-shadow: 0 2px 12px 0 rgba(0,0,0,.1);
+
         #title-text
         {
             font-size: 46px;
@@ -141,5 +144,8 @@
     #footer
     {
         margin-top: 10vh;
+
+        // Shadow
+        box-shadow: 0 2px 12px 0 rgba(0,0,0,.1);
     }
 </style>
