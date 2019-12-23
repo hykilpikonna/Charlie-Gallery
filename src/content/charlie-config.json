@@ -2,6 +2,7 @@
     "title":
     {
         "text": "Charlie's Gallery",
+        "sub": "This is a subtitle",
         "height": 80,
         "background": "title.jpeg",
         "dim": 50,

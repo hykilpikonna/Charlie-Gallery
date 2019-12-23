@@ -2,6 +2,7 @@
     <div id="app">
         <div id="title" :style="titleStyle">
             <div id="title-text">{{config.title.text}}</div>
+            <div id="title-sub">{{config.title.sub}}</div>
         </div>
     </div>
 </template>
