@@ -110,6 +110,14 @@
         }
 
         /**
+         * Update on resize
+         */
+        created()
+        {
+            window.addEventListener("resize", () => this.$forceUpdate());
+        }
+
+        /**
          * Style for title
          */
         get titleStyle()
