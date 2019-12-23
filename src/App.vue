@@ -125,7 +125,7 @@
         background-size: cover;
 
         // Alignment
-        margin-bottom: 30px;
+        margin-bottom: 10vh;
 
         #title-text
         {
@@ -140,6 +140,6 @@
 
     #footer
     {
-        margin-top: 30px;
+        margin-top: 10vh;
     }
 </style>
