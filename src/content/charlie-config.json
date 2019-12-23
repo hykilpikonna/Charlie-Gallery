@@ -11,44 +11,39 @@
     },
     "artwork":
     {
-        "default_title": "Untitled"
+        "default_title": "Untitled",
+        "default_format": "jpg"
     },
     "artworks":
     [
         {
             "date": "2019-10-05",
             "title": "Vibrance",
-            "format": "jpg"
+            "format": "png"
         },
         {
             "date": "2019-10-17",
-            "title": "Entrance",
-            "format": "jpg"
+            "title": "Entrance"
         },
         {
             "date": "2019-10-23",
-            "title": "Flowey",
-            "format": "jpg"
+            "title": "Flowey"
         },
         {
             "date": "2019-10-30",
-            "title": "Serial Dilution",
-            "format": "jpg"
+            "title": "Serial Dilution"
         },
         {
             "date": "2019-11-10",
-            "title": "View",
-            "format": "jpg"
+            "title": "View"
         },
         {
             "date": "2019-11-21",
-            "title": "Frozen",
-            "format": "jpg"
+            "title": "Frozen"
         },
         {
             "date": "2019-12-20",
-            "title": "SnowQUIRREL",
-            "format": "jpg"
+            "title": "SnowQUIRREL"
         }
     ]
 }
