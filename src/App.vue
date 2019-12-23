@@ -154,7 +154,6 @@
 
     #title
     {
-
         // Alignment
         margin-bottom: -10vh;
 
@@ -174,6 +173,9 @@
 
     #artwork-container
     {
+        // Center
+        margin: auto;
+        max-width: 1400px;
 
         .artwork
         {
