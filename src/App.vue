@@ -28,8 +28,11 @@
 
         get titleStyle()
         {
+            let dim = `rgba(0, 0, 0, ${config.title.dim / 100})`;
+            dim = `linear-gradient(${dim}, ${dim})`;
+
             return `height: ${config.title.height}vh;`
-                + `background: url(${require('./assets/' + config.title.background)})`;
+                + `background-image: ${dim}, url(${require('./assets/' + config.title.background)});`;
         }
     }
 </script>

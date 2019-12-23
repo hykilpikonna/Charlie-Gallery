@@ -2,6 +2,8 @@
     "title":
     {
         "text": "Charlie's Gallery",
-        "height": 100
+        "height": 80,
+        "background": "title.jpeg",
+        "dim": 50
     }
 }
