@@ -14,6 +14,9 @@ export default class Responsive
 
     getBlockWidth(currentWidth: number)
     {
+        // Screen too small
+        if (currentWidth < vhToPx(this.margin) * 2 + this.minWidth) return this.minWidth;
+
         // Loop through all the possible numbers on screen
         [1, 2, 3, 4, 5, 6].forEach(i =>
         {
