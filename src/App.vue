@@ -7,7 +7,7 @@
 
         <div id="artwork-container">
             <el-card class="artwork" :body-style="{padding: '0px', width: responsive.getBlockWidth().toFixed(0) + 'px'}"
-                     v-for="artwork in artworks">
+                     v-for="artwork in artworks" :key="artwork.date + artwork.title">
                 <div class="image" :style="{'background-image': artwork.imgThumb}">
                     <div class="description">
                         <div class="title">{{artwork.title}}</div>
