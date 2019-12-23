@@ -9,6 +9,10 @@
         "text_color": "white",
         "font": "'Neucha', cursive"
     },
+    "artwork":
+    {
+        "default_title": "Untitled"
+    },
     "artworks":
     [
         {
