@@ -10,10 +10,10 @@ export default class Responsive
         this.margin = margin;
     }
 
-    getBlockWidth(currentWidth: number)
+    getNumberOnScreen(currentWidth: number)
     {
         // Screen too small
-        if (currentWidth < vhToPx(this.margin) * 2 + this.minWidth) return this.minWidth;
+        if (currentWidth < vhToPx(this.margin) * 2 + this.minWidth) return 1;
 
         // Loop through all the possible numbers on screen
         [1, 2, 3, 4, 5, 6].forEach(i =>
@@ -25,11 +25,11 @@ export default class Responsive
             let blockWidth = (currentWidth - margins) / i;
 
             // Return block width
-            if (blockWidth > this.minWidth && blockWidth < this.maxWidth) return blockWidth;
+            if (blockWidth > this.minWidth) return i;
         });
 
         // Screen too big
-        return this.maxWidth;
+        return 6;
     }
 }
 
