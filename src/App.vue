@@ -27,6 +27,7 @@
     import {Component, Vue} from 'vue-property-decorator';
 
     import config from '@/content/charlie-config.json';
+    import Responsive from "@/responsive";
 
     /**
      * Data class for artworks
@@ -80,6 +81,9 @@
 
         // Parsed artworks
         artworks: Artwork[] = [];
+
+        // Responsive view
+        responsive = new Responsive(30, 2);
 
         /**
          * Initialize
