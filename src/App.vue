@@ -180,6 +180,11 @@
             height: 30vh;
             width: 30vh;
         }
+
+        .time
+        {
+            font-size: 12px;
+        }
     }
 
     #footer
