@@ -50,6 +50,9 @@
         // Create variable from imported config
         config = config;
 
+        // Parsed artworks
+        artworks: Artwork[] = [];
+
         /**
          * Initialize
          */
