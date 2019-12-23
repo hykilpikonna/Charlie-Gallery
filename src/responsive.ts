@@ -16,7 +16,7 @@ export default class Responsive
      *
      * @param currentWidth
      */
-    getNumberOnScreen(currentWidth: number)
+    getNumberOnScreen(currentWidth: number = document.documentElement.clientWidth)
     {
         // Screen too small
         if (currentWidth < vhToPx(this.margin) * 2 + this.minWidth) return 1;
