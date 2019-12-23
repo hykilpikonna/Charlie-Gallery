@@ -12,3 +12,13 @@ export default class Responsive
         this.margin = margin;
     }
 }
+
+/**
+ * vh to px
+ *
+ * @param vh
+ */
+function vhToPx(vh: number): number
+{
+    return document.documentElement.clientHeight * vh / 100;
+}
