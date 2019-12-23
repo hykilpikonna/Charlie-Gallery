@@ -8,10 +8,11 @@
         <div id="artwork-container">
             <el-card class="artwork" :body-style="{padding: '0px'}"
                      v-for="artwork in artworks">
-                <div class="image" :style="{'background-image': artwork.imgThumb}"></div>
-                <div style="padding: 14px;">
-                    <div class="title">{{artwork.title}}</div>
-                    <div class="time">{{artwork.rawDate}}</div>
+                <div class="image" :style="{'background-image': artwork.imgThumb}">
+                    <div class="description">
+                        <div class="title">{{artwork.title}}</div>
+                        <div class="time">{{artwork.rawDate}}</div>
+                    </div>
                 </div>
             </el-card>
         </div>
@@ -181,16 +182,22 @@
         {
             display: inline-block;
             margin: 2vh;
+            border: none;
 
             .image
             {
-                height: 30vh;
+                height: 40vh;
                 width: 30vh;
             }
 
-            .time
+            .description
             {
-                font-size: 12px;
+                padding: 14px;
+
+                .time
+                {
+                    font-size: 12px;
+                }
             }
         }
     }
