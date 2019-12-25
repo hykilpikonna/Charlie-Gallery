@@ -63,6 +63,7 @@ class Artwork
 
     getURL(img: string)
     {
+        if (img.toLowerCase().startsWith('http')) return img;
         try
         {
             return require('./assets/' + img);
