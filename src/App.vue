@@ -11,9 +11,11 @@
             </div>
         </div>
 
-        <div id="artwork-container" ref="artworkContainer">
+        <div id="width-detector" ref="widthDetect"></div>
+
+        <div id="artwork-container">
             <el-card class="artwork clickable" :body-style="{padding: '0px',
-                    width: responsive.getBlockWidth($refs.artworkContainer.clientWidth).toFixed(0) + 'px'}"
+                    width: responsive.getBlockWidth($refs.widthDetect.clientWidth).toFixed(0) + 'px'}"
                      v-for="(artwork, i) in selectedArtworks" :key="artwork.date + artwork.title">
                 <div class="image" :style="{'background-image': `url(${artwork.imgThumb})`}"
                      @click="onImageClick(artwork, i)">
@@ -99,6 +101,11 @@
                 color: white;
             }
         }
+    }
+
+    #width-detector
+    {
+        max-width: 1400px;
     }
 
     #artwork-container
