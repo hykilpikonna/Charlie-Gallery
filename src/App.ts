@@ -147,7 +147,7 @@ export default class App extends Vue
         return this.artworks.map(a =>
         {
             return {
-                src: a.imgFull,
+                src: a.url,
                 alt: a.title,
                 title: a.description ? a.title + ': ' + a.description : a.title
             }
