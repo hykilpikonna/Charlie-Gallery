@@ -36,12 +36,12 @@ class Artwork
 
         // Check image loadability
         let thumb = this.getURL(json.thumbnail);
-        if (thumb == null) Error('Error: File not found. ' + json.thumbnail);
-        let url;
-        if (!json.video)
+        let url = this.getURL(json.file);
+
+        // Youtube video thumbnail
+        if (json.video && thumb == null && json.file.toLowerCase().includes('youtube'))
         {
-            url = this.getURL(json.file);
-            if (url == null) Error('Error: File not found.' + json.file);
+            thumb = `https://img.youtube.com/vi/${getYoutubeVID(json.file)}/sddefault.jpg`;
         }
 
         // Assign
