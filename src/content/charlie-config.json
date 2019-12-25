@@ -42,7 +42,8 @@
         },
         {
             "date": "2019-11-10",
-            "title": "View"
+            "title": "View",
+            "description": "This is an example description"
         },
         {
             "date": "2019-11-21",
@@ -50,7 +51,7 @@
         },
         {
             "date": "2019-12-20",
-            "title": "SnowQUIRREL"
+            "title": "Snow Quirrel"
         }
     ]
 }
