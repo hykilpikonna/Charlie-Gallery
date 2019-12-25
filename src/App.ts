@@ -111,6 +111,14 @@ export default class App extends Vue
     }
 
     /**
+     * Filter out artworks of selected type
+     */
+    get selectedArtworks()
+    {
+        return this.artworks.filter(a => a.type.type == this.selectedType);
+    }
+
+    /**
      * Update on resize
      */
     created()
