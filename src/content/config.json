@@ -84,7 +84,11 @@
             "video": true,
             "posts":
             [
-
+                {
+                    "date": "2019-12-07",
+                    "title": "色彩 ~雪花の盾~",
+                    "file": "https://www.youtube.com/watch?v=QLDQ4VKrmvQ"
+                }
             ]
         }
     ]
