@@ -29,9 +29,7 @@
 
         <photo-swipper ref="ps"/>
 
-        <div id="home" v-if="selectedType === 'Home'">
-            {{home}}
-        </div>
+        <home id="home" v-if="selectedType === 'Home'"/>
 
         <div id="footer" :style="footerStyle">
 
@@ -151,6 +149,12 @@
                 }
             }
         }
+    }
+
+    #home
+    {
+        margin: 15vh 5vw 5vh 5vw;
+        text-align: left;
     }
 
     #footer
