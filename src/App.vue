@@ -3,6 +3,10 @@
         <div id="title" class="no-select" :style="titleStyle">
             <div id="title-text">{{config.title.text}}</div>
             <div id="title-sub">{{config.title.sub}}</div>
+
+            <div id="nav">
+                <span class="nav-item" v-for="type in config.types">{{type.type}}</span>
+            </div>
         </div>
 
         <div id="artwork-container" ref="artworkContainer">
