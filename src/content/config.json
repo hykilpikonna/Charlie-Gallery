@@ -28,7 +28,11 @@
             "type": "Painting",
             "posts":
             [
-
+                {
+                    "date": "2018-10-24",
+                    "title": "Meiko",
+                    "format": "png"
+                }
             ]
         },
         {
