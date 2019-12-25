@@ -13,7 +13,7 @@ class Artwork
     title: string;
     description: string;
 
-    type: string;
+    type: any;
     video: boolean;
 
     url: string;
