@@ -3,6 +3,7 @@ import {Component, Vue} from 'vue-property-decorator';
 import config from '@/content/charlie-config.json';
 import Responsive from "@/responsive";
 import PhotoSwipper from "@/PhotoSwipper.vue";
+import pWaitFor from "p-wait-for";
 
 /**
  * Data class for artworks
@@ -80,6 +81,9 @@ export default class App extends Vue
     // Responsive view
     responsive = new Responsive(30, 2);
 
+    // Loaded
+    loaded = false;
+
     /**
      * Initialize
      */
@@ -102,6 +106,12 @@ export default class App extends Vue
 
         // Sort by date
         this.artworks.sort((a, b) => b.date.getTime() - a.date.getTime());
+
+        // Check loaded
+        pWaitFor(() => this.artworks.every(a => a.isLoaded)).then(() =>
+        {
+            this.loaded = true;
+        });
     }
 
     /**
