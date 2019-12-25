@@ -4,7 +4,7 @@
         "text": "Hykilpikonna's Gallery",
         "sub": "This is a subtitle",
         "height": 80,
-        "background": "title.jpeg",
+        "background": "title.jpg",
         "dim": 60,
         "text_color": "white",
         "font": "'Neucha', cursive"
