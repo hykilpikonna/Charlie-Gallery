@@ -13,6 +13,9 @@ class Artwork
     title: string;
     format: string;
 
+    width: number;
+    height: number;
+
     constructor(date: string, title: string, format: string)
     {
         this.rawDate = date;
