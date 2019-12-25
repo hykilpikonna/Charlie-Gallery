@@ -76,6 +76,9 @@
             position: absolute;
             bottom: 10vh;
             width: 100vw;
+
+            // Font
+            font-family: 'Nunito', "Roboto Light", Arial, sans-serif;
         }
     }
 
