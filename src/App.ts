@@ -85,6 +85,9 @@ export default class App extends Vue
     // Responsive view
     responsive = new Responsive(30, 2);
 
+    // Selected type
+    selectedType = config.post.default_type;
+
     /**
      * Initialize
      */
