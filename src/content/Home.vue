@@ -46,12 +46,16 @@
     </div>
 </template>
 
-<script>
-    export default {
-        name: "Home"
+<script lang="ts">
+    import {Component} from "vue-property-decorator";
+
+    @Component
+    export default class Home extends Vue
+    {
+
     }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 
 </style>
