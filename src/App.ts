@@ -169,8 +169,10 @@ export default class App extends Vue
 
     onImageClick(artwork: Artwork, index: number)
     {
+        if (artwork.video) open(artwork.url, '_blank');
+
         // @ts-ignore
-        this.$refs.ps.show(this.swipeItems(), {index: index});
+        else this.$refs.ps.show(this.swipeItems(), {index: index});
     }
 }
 
