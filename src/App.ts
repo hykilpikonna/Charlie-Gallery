@@ -13,31 +13,51 @@ class Artwork
     title: string;
     description: string;
 
-    constructor(date: string, title: string, format: string, description: string)
-    {
-        this.rawDate = date;
-        this.title = title;
-        this.format = format;
-        this.description = description;
-    }
     type: string;
     video: boolean;
+
+    url: string;
+    imgThumb: string;
+
+    constructor(type: any, json: any)
+    {
+        // Check null case
+        if (json.date == null) Error('Error: No date specified.');
+        if (json.title == null) json.title = config.post.default_title;
+        if (json.format == null) json.format = config.post.default_format;
+        if (type.video == null) type.video = false;
+        if (json.video == null) json.video = type.video;
+
+        // Check image null case
+        let base = json.date.split(' ').join('-') + json.title.split(' ')[0].toLowerCase() + '/';
+        if (json.file == null) json.file = base + 'public.' + json.format;
+        if (json.thumbnail == null) json.thumbnail = base + 'thumb.' + json.format;
+
+        // Check image loadability
+        let thumb = this.getURL(json.thumbnail);
+        if (thumb == null) Error('Error: File not found. ' + json.thumbnail);
+        let url;
+        if (!json.video)
+        {
+            url = this.getURL(json.file);
+            if (url == null) Error('Error: File not found.' + json.file);
+        }
+
+        // Assign
+        this.rawDate = json.date;
+        this.title = json.title;
+        this.description = json.description;
+
+        this.type = type;
+        this.video = json.video;
+
+        this.url = json.video ? json.file : url;
+        this.imgThumb = thumb;
+    }
 
     get date()
     {
         return new Date(this.rawDate);
-    }
-    url: string;
-    imgThumb: string;
-
-    get imgThumb()
-    {
-        return this.getURL(`${this.rawDate}.pic.${this.format}`)
-    }
-
-    get imgFull()
-    {
-        return this.getURL(`${this.rawDate}.pic_hd.${this.format}`);
     }
 
     getURL(img: string)
@@ -48,7 +68,7 @@ class Artwork
         }
         catch (e)
         {
-            return './404.jpg'
+            return null;
         }
     }
 }
