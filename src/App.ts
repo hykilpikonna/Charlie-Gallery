@@ -148,4 +148,18 @@ export default class App extends Vue
             background: config.footer.background
         }
     }
+
+    get swipeItems()
+    {
+        return this.artworks.map(a =>
+        {
+            return {
+                src: a.imgFull,
+                alt: a.title,
+                title: a.title,
+                w: a.width,
+                h: a.height
+            }
+        })
+    }
 }
