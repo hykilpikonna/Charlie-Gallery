@@ -83,6 +83,9 @@
             .nav-item
             {
                 margin: 5px;
+
+                // Bottom line
+                border-bottom: 2px solid;
             }
         }
     }
