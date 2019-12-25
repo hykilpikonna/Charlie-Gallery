@@ -59,14 +59,33 @@
     @Component
     export default class PhotoSwipper extends Vue
     {
+        ps: PhotoSwipe<any>;
+
         show(items: any[], options: any)
         {
-            let ps = new PhotoSwipe(this.$refs.pswp as any, PhotoSwipeUI_Default, items, options);
-            ps.init();
+            this.update(items);
+            this.ps = new PhotoSwipe(this.$refs.pswp as any, PhotoSwipeUI_Default, items, options);
+            this.ps.init();
+
+            window.addEventListener("resize", () => this.update(this.ps.items));
+        }
+
+        update(items: PhotoSwipe.Item[])
+        {
+            // Update inner width and inner height
+            items.forEach(item =>
+            {
+                item.w = window.innerWidth;
+                item.h = window.innerHeight;
+            })
         }
     }
 </script>
 
-<style lang="scss" scoped>
-
+<style lang="scss">
+    .pswp img
+    {
+        max-width: none !important;
+        object-fit: contain !important;
+    }
 </style>

@@ -15,9 +15,6 @@ class Artwork
     format: string;
     description: string;
 
-    width: number;
-    height: number;
-
     constructor(date: string, title: string, format: string, description: string)
     {
         this.rawDate = date;
@@ -52,23 +49,6 @@ class Artwork
             return './404.jpg'
         }
     }
-
-    loadDimensions()
-    {
-        let img = new Image();
-        img.onload = () =>
-        {
-            this.width = img.width;
-            this.height = img.height;
-        };
-        img.src = this.imgFull;
-        return this;
-    }
-
-    get isLoaded()
-    {
-        return this.width != undefined && this.height != undefined;
-    }
 }
 
 @Component({components: {PhotoSwipper}})
@@ -82,9 +62,6 @@ export default class App extends Vue
 
     // Responsive view
     responsive = new Responsive(30, 2);
-
-    // Loaded
-    loaded = false;
 
     /**
      * Initialize
@@ -103,17 +80,11 @@ export default class App extends Vue
             if (a.format == null) a.format = config.artwork.default_format;
 
             // Add it
-            this.artworks.push(new Artwork(a.date, a.title, a.format, a.description).loadDimensions());
+            this.artworks.push(new Artwork(a.date, a.title, a.format, a.description));
         });
 
         // Sort by date
         this.artworks.sort((a, b) => b.date.getTime() - a.date.getTime());
-
-        // Check loaded
-        pWaitFor(() => this.artworks.every(a => a.isLoaded)).then(() =>
-        {
-            this.loaded = true;
-        });
     }
 
     /**
@@ -151,25 +122,21 @@ export default class App extends Vue
         }
     }
 
-    get swipeItems()
+    swipeItems()
     {
         return this.artworks.map(a =>
         {
             return {
                 src: a.imgFull,
                 alt: a.title,
-                title: a.description ? a.title + ': ' + a.description : a.title,
-                w: a.width,
-                h: a.height
+                title: a.description ? a.title + ': ' + a.description : a.title
             }
         })
     }
 
     onImageClick(index: number)
     {
-        if (!this.loaded) return;
-
         // @ts-ignore
-        this.$refs.ps.show(this.swipeItems, {index: index});
+        this.$refs.ps.show(this.swipeItems(), {index: index});
     }
 }
