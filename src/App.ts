@@ -97,7 +97,7 @@ export default class App extends Vue
             if (a.format == null) a.format = config.artwork.default_format;
 
             // Add it
-            this.artworks.push(new Artwork(a.date, a.title, a.format));
+            this.artworks.push(new Artwork(a.date, a.title, a.format).loadDimensions());
         });
 
         // Sort by date
