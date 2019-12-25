@@ -162,4 +162,12 @@ export default class App extends Vue
             }
         })
     }
+
+    onImageClick(index: number)
+    {
+        if (!this.loaded) return;
+
+        // @ts-ignore
+        this.$refs.ps.show(this.swipeItems, {index: index});
+    }
 }
