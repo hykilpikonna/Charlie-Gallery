@@ -14,7 +14,7 @@
         <div id="artwork-container" ref="artworkContainer">
             <el-card class="artwork clickable" :body-style="{padding: '0px',
                     width: responsive.getBlockWidth($refs.artworkContainer.clientWidth).toFixed(0) + 'px'}"
-                     v-for="(artwork, i) in artworks" :key="artwork.date + artwork.title">
+                     v-for="(artwork, i) in selectedArtworks" :key="artwork.date + artwork.title">
                 <div class="image" :style="{'background-image': `url(${artwork.imgThumb})`}" @click="() => onImageClick(i)">
                     <div class="description">
                         <div class="title">{{artwork.title}}</div>
