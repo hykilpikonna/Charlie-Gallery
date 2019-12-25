@@ -116,7 +116,10 @@ export default class App extends Vue
         this.artworks.sort((a, b) => b.date.getTime() - a.date.getTime());
 
         // Add home as a type
-        this.config.types.unshift({type: 'Home', posts: []});
+        if (this.config.types[0].type != 'Home')
+        {
+            this.config.types.unshift({type: 'Home', posts: []});
+        }
     }
 
     /**
