@@ -3,31 +3,44 @@
     {
         "date": "2019-10-05",
         "title": "Vibrance",
-        "format": "png"
+        "file": "191005-vibrance/public.png",
+        "thumbnail": "191005-vibrance/thumb.png"
     },
     {
         "date": "2019-10-17",
-        "title": "Entrance"
+        "title": "Entrance",
+        "file": "191017-entrance/public.jpg",
+        "thumbnail": "191017-entrance/thumb.jpg"
     },
     {
         "date": "2019-10-23",
-        "title": "Flowey"
+        "title": "Flowey",
+        "file": "191023-flowey/public.jpg",
+        "thumbnail": "191023-flowey/thumb.jpg"
     },
     {
         "date": "2019-10-30",
-        "title": "Serial Dilution"
+        "title": "Serial Dilution",
+        "file": "191030-chem/public.jpg",
+        "thumbnail": "191030-chem/thumb.jpg"
     },
     {
         "date": "2019-11-10",
         "title": "View",
-        "description": "This is an example description"
+        "description": "This is an example description",
+        "file": "191110-view/public.jpg",
+        "thumbnail": "191110-view/thumb.jpg"
     },
     {
         "date": "2019-11-21",
-        "title": "Frozen"
+        "title": "Frozen",
+        "file": "191121-frozen/public.jpg",
+        "thumbnail": "191121-frozen/thumb.jpg"
     },
     {
         "date": "2019-12-20",
-        "title": "Snow Quirrel"
+        "title": "Snow Quirrel",
+        "file": "191220-squirrel/public.jpg",
+        "thumbnail": "191220-squirrel/thumb.jpg"
     }
 ]
