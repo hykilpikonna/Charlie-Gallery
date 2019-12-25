@@ -1,6 +1,6 @@
 <template>
     <div id="app">
-        <div id="title" :style="titleStyle">
+        <div id="title" class="no-select" :style="titleStyle">
             <div id="title-text">{{config.title.text}}</div>
             <div id="title-sub">{{config.title.sub}}</div>
         </div>
@@ -111,5 +111,13 @@
     {
         // Shadow
         box-shadow: 0 2px 12px 0 rgba(0,0,0,.1);
+    }
+
+    .no-select
+    {
+        -webkit-user-select: none; /* Safari */
+        -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* IE10+/Edge */
+        user-select: none; /* Standard */
     }
 </style>
