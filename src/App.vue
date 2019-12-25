@@ -29,6 +29,10 @@
 
         <photo-swipper ref="ps"/>
 
+        <div id="home" v-if="selectedType === 'Home'">
+            {{home}}
+        </div>
+
         <div id="footer" :style="footerStyle">
 
         </div>

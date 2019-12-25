@@ -3,6 +3,7 @@ import {Component, Vue} from 'vue-property-decorator';
 import config from '@/content/config.json';
 import Responsive from "@/responsive";
 import PhotoSwipper from "@/PhotoSwipper.vue";
+import {homeContent} from "@/content/home.js"
 
 /**
  * Data class for artworks
@@ -80,6 +81,9 @@ export default class App extends Vue
 {
     // Create variable from imported config
     config = config;
+
+    // Home
+    home = homeContent;
 
     // Parsed artworks
     artworks: Artwork[] = [];
