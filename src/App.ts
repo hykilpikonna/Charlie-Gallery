@@ -93,16 +93,14 @@ export default class App extends Vue
         // Set title
         document.title = config.title.text;
 
-        // Parse artworks
-        config.artworks.forEach((a: any) =>
+        // Parse artwork types
+        config.types.forEach((type: any) =>
         {
-            // Check null case
-            if (a.date == null) Error('Error: No date specified.');
-            if (a.title == null) a.title = config.artwork.default_title;
-            if (a.format == null) a.format = config.artwork.default_format;
-
-            // Add it
-            this.artworks.push(new Artwork(a.date, a.title, a.format, a.description));
+            // Parse artworks
+            type.posts.forEach((a: any) =>
+            {
+                this.artworks.push(new Artwork(type, a));
+            })
         });
 
         // Sort by date
