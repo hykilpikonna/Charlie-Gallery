@@ -62,14 +62,20 @@
                     "description": "This is an example description"
                 },
                 {
+                    "date": "2019-12-13",
+                    "title": "Covered",
+                    "file": "title.jpg",
+                    "thumbnail": "title.jpg"
+                },
+                {
                     "date": "2019-11-21",
                     "title": "Frozen"
                 },
                 {
                     "date": "2019-12-20",
                     "title": "Snow Quirrel",
-                    "file": "2019-12-20-squirrel/public.jpg",
-                    "thumbnail": "2019-12-20-squirrel/thumb.jpg"
+                    "file": "photography/2019-12-20-squirrel/public.jpg",
+                    "thumbnail": "photography/2019-12-20-squirrel/thumb.jpg"
                 }
             ]
         },
