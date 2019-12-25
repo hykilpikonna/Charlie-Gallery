@@ -11,7 +11,6 @@ class Artwork
 {
     rawDate: string;
     title: string;
-    format: string;
     description: string;
 
     constructor(date: string, title: string, format: string, description: string)
@@ -21,6 +20,8 @@ class Artwork
         this.format = format;
         this.description = description;
     }
+    type: string;
+    video: boolean;
 
     get date()
     {
