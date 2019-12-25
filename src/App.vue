@@ -74,7 +74,7 @@
         {
             // Alignment
             position: absolute;
-            bottom: 10vh;
+            bottom: 15vh;
             width: 100vw;
 
             // Font
