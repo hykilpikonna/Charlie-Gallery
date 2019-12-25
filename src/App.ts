@@ -3,6 +3,7 @@ import {Component, Vue} from 'vue-property-decorator';
 import config from '@/content/config.json';
 import Responsive from "@/responsive";
 import PhotoSwipper from "@/PhotoSwipper.vue";
+import Home from "@/content/Home.vue";
 
 /**
  * Data class for artworks
