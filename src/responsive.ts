@@ -50,7 +50,7 @@ export default class Responsive
     getBlockWidth(currentWidth: number = document.documentElement.clientWidth)
     {
         let count = this.getNumberOnScreen(currentWidth);
-        return (currentWidth - vhToPx(this.margin) * count * 2) / count - 5;
+        return (currentWidth - vhToPx(this.margin) * count * 2) / count - 1;
     }
 }
 
