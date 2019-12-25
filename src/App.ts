@@ -158,7 +158,7 @@ export default class App extends Vue
             return {
                 src: a.imgFull,
                 alt: a.title,
-                title: a.title,
+                title: a.description ? a.title + ': ' + a.description : a.title,
                 w: a.width,
                 h: a.height
             }
