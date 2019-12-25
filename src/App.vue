@@ -71,8 +71,6 @@
         margin: auto;
         max-width: 1400px;
 
-        background: #00000014;
-
         .artwork
         {
             display: inline-block;
