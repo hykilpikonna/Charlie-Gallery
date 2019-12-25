@@ -1,6 +1,6 @@
 import {Component, Vue} from 'vue-property-decorator';
 
-import config from '@/content/charlie-config.json';
+import config from '@/content/config.json';
 import Responsive from "@/responsive";
 import PhotoSwipper from "@/PhotoSwipper.vue";
 import pWaitFor from "p-wait-for";

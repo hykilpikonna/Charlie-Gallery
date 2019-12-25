@@ -1,7 +1,7 @@
 {
     "title":
     {
-        "text": "Charlie's Gallery",
+        "text": "Hykilpikonna's Gallery",
         "sub": "This is a subtitle",
         "height": 80,
         "background": "title.jpeg",
@@ -19,7 +19,7 @@
     {
         "default_title": "Untitled",
         "default_format": "jpg",
-        "author": "Charlie"
+        "author": "Hykilpikonna"
     },
     "artworks":
     [
