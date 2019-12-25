@@ -17,6 +17,8 @@
             </el-card>
         </div>
 
+        <photo-swipper v-if="loaded" ref="ps"/>
+
         <div id="footer" :style="footerStyle">
 
         </div>
