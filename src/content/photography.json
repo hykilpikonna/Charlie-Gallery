@@ -2,40 +2,28 @@
 [
     {
         "date": "2019-10-05",
-        "title": "Vibrance",
-        "file": "191005-vibrance/public.png",
-        "thumbnail": "191005-vibrance/thumb.png"
+        "title": "Vibrance"
     },
     {
         "date": "2019-10-17",
-        "title": "Entrance",
-        "file": "191017-entrance/public.jpg",
-        "thumbnail": "191017-entrance/thumb.jpg"
+        "title": "Entrance"
     },
     {
         "date": "2019-10-23",
-        "title": "Flowey",
-        "file": "191023-flowey/public.jpg",
-        "thumbnail": "191023-flowey/thumb.jpg"
+        "title": "Flowey"
     },
     {
         "date": "2019-10-30",
-        "title": "Serial Dilution",
-        "file": "191030-chem/public.jpg",
-        "thumbnail": "191030-chem/thumb.jpg"
+        "title": "Serial Dilution"
     },
     {
         "date": "2019-11-10",
         "title": "View",
-        "description": "This is an example description",
-        "file": "191110-view/public.jpg",
-        "thumbnail": "191110-view/thumb.jpg"
+        "description": "This is an example description"
     },
     {
         "date": "2019-11-21",
-        "title": "Frozen",
-        "file": "191121-frozen/public.jpg",
-        "thumbnail": "191121-frozen/thumb.jpg"
+        "title": "Frozen"
     },
     {
         "date": "2019-12-20",
