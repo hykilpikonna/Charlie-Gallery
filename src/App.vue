@@ -55,6 +55,7 @@
     {
         // Alignment
         margin-bottom: -10vh;
+        position: relative;
 
         // Shadow
         box-shadow: 0 2px 12px 0 rgba(0,0,0,.1);
@@ -67,6 +68,14 @@
         #title-sub
         {
             font-size: 20px;
+        }
+
+        #nav
+        {
+            // Alignment
+            position: absolute;
+            bottom: 10vh;
+            width: 100vw;
         }
     }
 
