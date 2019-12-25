@@ -49,6 +49,18 @@ class Artwork
             return './404.jpg'
         }
     }
+
+    loadDimensions()
+    {
+        let img = new Image();
+        img.onload = () =>
+        {
+            this.width = img.width;
+            this.height = img.height;
+        };
+        img.src = this.imgFull;
+        return this;
+    }
 }
 
 @Component({components: {PhotoSwipper}})
