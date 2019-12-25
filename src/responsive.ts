@@ -22,10 +22,10 @@ export default class Responsive
         let min = vhToPx(this.minWidth);
 
         // Screen too small
-        if (currentWidth > (margin + min) * 6) return 6;
+        if (currentWidth > (margin + min) * 4) return 4;
 
         // Loop through all the possible numbers on screen
-        for (let i of [1, 2, 3, 4, 5, 6].reverse())
+        for (let i of [1, 2, 3, 4].reverse())
         {
             // Calculate margin width
             let margins = margin * i;
