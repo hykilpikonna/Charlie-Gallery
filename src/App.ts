@@ -166,7 +166,7 @@ export default class App extends Vue
         })
     }
 
-    onImageClick(index: number)
+    onImageClick(artwork: Artwork, index: number)
     {
         // @ts-ignore
         this.$refs.ps.show(this.swipeItems(), {index: index});
