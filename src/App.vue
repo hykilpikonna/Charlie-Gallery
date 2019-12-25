@@ -102,6 +102,9 @@
             margin: 2vh;
             border: none;
 
+            // Clickable
+            cursor: pointer;
+
             .image
             {
                 height: 40vh;
