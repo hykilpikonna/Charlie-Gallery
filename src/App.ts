@@ -156,7 +156,7 @@ export default class App extends Vue
 
     swipeItems()
     {
-        return this.artworks.map(a =>
+        return this.selectedArtworks.map(a =>
         {
             return {
                 src: a.url,
