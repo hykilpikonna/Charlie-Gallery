@@ -2,6 +2,7 @@ import {Component, Vue} from 'vue-property-decorator';
 
 import config from '@/content/charlie-config.json';
 import Responsive from "@/responsive";
+import PhotoSwipper from "@/PhotoSwipper.vue";
 
 /**
  * Data class for artworks
@@ -47,7 +48,7 @@ class Artwork
     }
 }
 
-@Component
+@Component({components: {PhotoSwipper}})
 export default class App extends Vue
 {
     // Create variable from imported config
