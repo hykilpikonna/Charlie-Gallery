@@ -79,6 +79,11 @@
 
             // Font
             font-family: 'Nunito', "Roboto Light", Arial, sans-serif;
+
+            .nav-item
+            {
+                margin: 5px;
+            }
         }
     }
 
