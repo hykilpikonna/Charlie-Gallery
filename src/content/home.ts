@@ -1,4 +1,4 @@
-const homeContent =
+export const homeContent =
 `
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget nulla ligula. 
 Cras a lectus accumsan mauris venenatis placerat. 
