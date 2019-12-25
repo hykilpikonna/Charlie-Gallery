@@ -6,7 +6,8 @@
 
             <div id="nav">
                 <span v-for="type in config.types" class="nav-item clickable"
-                      :class="{selected: type.type === selectedType}">{{type.type}}</span>
+                      :class="{selected: type.type === selectedType}"
+                      @click="selectedType = type.type">{{type.type}}</span>
             </div>
         </div>
 
