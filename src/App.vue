@@ -13,7 +13,7 @@
 
         <div id="width-detector" ref="widthDetect"></div>
 
-        <div id="artwork-container">
+        <div id="artwork-container" v-if="selectedType !== 'Home'">
             <el-card class="artwork clickable" :body-style="{padding: '0px',
                     width: responsive.getBlockWidth($refs.widthDetect.clientWidth).toFixed(0) + 'px'}"
                      v-for="(artwork, i) in selectedArtworks" :key="artwork.date + artwork.title">
