@@ -5,7 +5,8 @@
             <div id="title-sub">{{config.title.sub}}</div>
 
             <div id="nav">
-                <span class="nav-item" v-for="type in config.types">{{type.type}}</span>
+                <span v-for="type in config.types" class="nav-item clickable"
+                      :class="{selected: type.type === selectedType}">{{type.type}}</span>
             </div>
         </div>
 
