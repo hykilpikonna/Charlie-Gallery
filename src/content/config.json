@@ -19,7 +19,8 @@
     {
         "default_title": "Untitled",
         "default_format": "jpg",
-        "author": "Hykilpikonna"
+        "author": "Hykilpikonna",
+        "default_type": "Photography"
     },
     "types":
     [
