@@ -18,7 +18,8 @@
     "artwork":
     {
         "default_title": "Untitled",
-        "default_format": "jpg"
+        "default_format": "jpg",
+        "author": "Charlie"
     },
     "artworks":
     [
