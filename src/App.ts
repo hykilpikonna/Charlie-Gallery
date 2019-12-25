@@ -13,15 +13,17 @@ class Artwork
     rawDate: string;
     title: string;
     format: string;
+    description: string;
 
     width: number;
     height: number;
 
-    constructor(date: string, title: string, format: string)
+    constructor(date: string, title: string, format: string, description: string)
     {
         this.rawDate = date;
         this.title = title;
         this.format = format;
+        this.description = description;
     }
 
     get date()
@@ -101,7 +103,7 @@ export default class App extends Vue
             if (a.format == null) a.format = config.artwork.default_format;
 
             // Add it
-            this.artworks.push(new Artwork(a.date, a.title, a.format).loadDimensions());
+            this.artworks.push(new Artwork(a.date, a.title, a.format, a.description).loadDimensions());
         });
 
         // Sort by date
