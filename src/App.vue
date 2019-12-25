@@ -11,7 +11,7 @@
         </div>
 
         <div id="artwork-container" ref="artworkContainer">
-            <el-card class="artwork" :body-style="{padding: '0px',
+            <el-card class="artwork clickable" :body-style="{padding: '0px',
                     width: responsive.getBlockWidth($refs.artworkContainer.clientWidth).toFixed(0) + 'px'}"
                      v-for="(artwork, i) in artworks" :key="artwork.date + artwork.title">
                 <div class="image" :style="{'background-image': `url(${artwork.imgThumb})`}" @click="() => onImageClick(i)">
@@ -111,9 +111,6 @@
             margin: 2vh;
             border: none;
 
-            // Clickable
-            cursor: pointer;
-
             .image
             {
                 height: 40vh;
@@ -155,5 +152,11 @@
         -moz-user-select: none; /* Firefox */
         -ms-user-select: none; /* IE10+/Edge */
         user-select: none; /* Standard */
+    }
+
+    .clickable
+    {
+        // Clickable
+        cursor: pointer;
     }
 </style>
