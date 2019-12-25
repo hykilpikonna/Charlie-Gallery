@@ -27,6 +27,8 @@ class Artwork
     {
         return new Date(this.rawDate);
     }
+    url: string;
+    imgThumb: string;
 
     get imgThumb()
     {
