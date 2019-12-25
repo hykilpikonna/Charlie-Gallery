@@ -87,6 +87,14 @@
 
                 // Bottom line
                 border-bottom: 2px solid;
+
+                // Emphasize
+                color: #ffffffa8;
+            }
+
+            .nav-item.selected
+            {
+                color: white;
             }
         }
     }
