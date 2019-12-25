@@ -42,7 +42,7 @@ class Artwork
     {
         try
         {
-            return 'url(' + require('./assets/' + img) + ')';
+            return require('./assets/' + img);
         }
         catch (e)
         {
