@@ -27,6 +27,13 @@
             "type": "Drawing and Painting",
             "posts":
             [
+
+            ]
+        },
+        {
+            "type": "Photography",
+            "posts":
+            [
                 {
                     "date": "2019-10-05",
                     "title": "Vibrance",
@@ -59,13 +66,6 @@
                     "file": "2019-12-20-squirrel/public.jpg",
                     "thumbnail": "2019-12-20-squirrel/thumb.jpg"
                 }
-            ]
-        },
-        {
-            "type": "Photography",
-            "posts":
-            [
-
             ]
         },
         {
