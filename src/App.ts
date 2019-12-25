@@ -61,6 +61,11 @@ class Artwork
         img.src = this.imgFull;
         return this;
     }
+
+    get isLoaded()
+    {
+        return this.width != undefined && this.height != undefined;
+    }
 }
 
 @Component({components: {PhotoSwipper}})
