@@ -1,8 +1,8 @@
 {
     "title":
     {
-        "text": "Charlie's Gallery",
-        "sub": "This is a subtitle",
+        "text": "Charlie's Visual Arts",
+        "sub": "可以改的副标题",
         "height": 80,
         "background": "title.jpg",
         "dim": 60,
@@ -40,9 +40,13 @@
             "posts":
             [
                 {
+                    "date":"2019-10-10",
+                    "title":"the thinker",
+                    "description": "self portrait"
+                },
+                {
                     "date": "2019-10-05",
-                    "title": "Vibrance",
-                    "format": "png"
+                    "title": "Vibrance"
                 },
                 {
                     "date": "2019-10-17",
