@@ -30,8 +30,18 @@ class Artwork
         if (json.video == null) json.video = type.video;
 
         // Check image null case
-        let base = type.type.toLowerCase() + '/' +
-            json.date.split(' ').join('-') + '-' + json.title.split(' ')[0].toLowerCase() + '/';
+        let base;
+        if (type.folder != null)
+        {
+            base = type.folder.toLowerCase() + '/' +
+                json.date.split(' ').join('-') + '-' + json.title.split(' ')[0].toLowerCase() + '/';
+        }
+        else
+        {
+            base = type.type.toLowerCase() + '/' +
+                json.date.split(' ').join('-') + '-' + json.title.split(' ')[0].toLowerCase() + '/';
+        }
+
         if (json.file == null) json.file = base + 'public.' + json.format;
         if (json.thumbnail == null) json.thumbnail = base + 'thumb.' + json.format;
 

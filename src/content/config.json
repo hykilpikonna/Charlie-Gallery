@@ -25,7 +25,8 @@
     "types":
     [
         {
-            "type": "Painting",
+            "type": "Drawing & Painting",
+            "folder": "painting",
             "posts":
             [
                 {
