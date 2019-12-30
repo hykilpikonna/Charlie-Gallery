@@ -2,9 +2,9 @@
     "title":
     {
         "text": "Charlie's Visual Arts",
-        "sub": "可以改的副标题",
+        "sub": "The Distance",
         "height": 80,
-        "background": "title.jpg",
+        "background": "title1.jpg",
         "dim": 60,
         "text_color": "white",
         "font": "'Neucha', cursive"
@@ -19,7 +19,7 @@
     {
         "default_title": "Untitled",
         "default_format": "jpg",
-        "author": "Hykilpikonna",
+        "author": "Charlie",
         "default_type": "Photography"
     },
     "types":
@@ -40,46 +40,13 @@
             "posts":
             [
                 {
+                    "date":"2017-08-08",
+                    "title":"The quietness before dawn"
+                },
+                {
                     "date":"2019-10-10",
-                    "title":"the thinker",
+                    "title":"The thinker",
                     "description": "self portrait"
-                },
-                {
-                    "date": "2019-10-05",
-                    "title": "Vibrance"
-                },
-                {
-                    "date": "2019-10-17",
-                    "title": "Entrance"
-                },
-                {
-                    "date": "2019-10-23",
-                    "title": "Flowey"
-                },
-                {
-                    "date": "2019-10-30",
-                    "title": "Serial Dilution"
-                },
-                {
-                    "date": "2019-11-10",
-                    "title": "View",
-                    "description": "This is an example description"
-                },
-                {
-                    "date": "2019-12-13",
-                    "title": "Covered",
-                    "file": "title.jpg",
-                    "thumbnail": "title.jpg"
-                },
-                {
-                    "date": "2019-11-21",
-                    "title": "Frozen"
-                },
-                {
-                    "date": "2019-12-20",
-                    "title": "Snow Quirrel",
-                    "file": "photography/2019-12-20-squirrel/public.jpg",
-                    "thumbnail": "photography/2019-12-20-squirrel/thumb.jpg"
                 }
             ]
         },

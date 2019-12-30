@@ -1,17 +1,7 @@
 <template>
     <div id="home">
         <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget nulla ligula.
-            Cras a lectus accumsan mauris venenatis placerat.
-            Nulla sapien nibh, convallis non imperdiet a, posuere a est.
-            Quisque orci odio, condimentum nec feugiat et, ultricies eget dui.
-            Aenean imperdiet in quam ut tincidunt. Nulla facilisi.
-            Donec varius lorem augue, consequat vulputate massa auctor vitae.
-            Quisque blandit, libero eu finibus vehicula, nibh erat pulvinar massa,
-            aliquam volutpat libero eros et nibh. In eu felis nisl. Duis interdum,
-            elit id porta molestie, risus magna hendrerit augue, nec varius mauris risus sed mi.
-            Nullam egestas sapien vitae urna sodales cursus non vitae lorem. Aliquam ac enim dui.
-            Maecenas efficitur eleifend mi in accumsan. Nam vel rutrum ante.
+            这里是我的网站. 写点别的
         </p>
         <p>
             Morbi accumsan magna efficitur maximus aliquam. Cras sed orci libero.
