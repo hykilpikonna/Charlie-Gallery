@@ -3,8 +3,8 @@
     {
         "text": "Charlie's Visual Arts",
         "sub": "The Distance",
-        "height": 80,
-        "background": "title1.jpg",
+        "height": 70,
+        "background": "title.jpg",
         "dim": 60,
         "text_color": "white",
         "font": "'Neucha', cursive"
