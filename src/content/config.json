@@ -20,7 +20,7 @@
         "default_title": "Untitled",
         "default_format": "jpg",
         "author": "Charlie",
-        "default_type": "Photography"
+        "default_type": "Drawing and Painting"
     },
     "types":
     [
@@ -30,9 +30,76 @@
             "posts":
             [
                 {
-                    "date": "2018-10-24",
-                    "title": "Meiko",
-                    "format": "png"
+                    "date": "2017-12-31",
+                    "title": "Time stands still Life moves on"
+                },
+                {
+                    "date": "2018-12-30",
+                    "title": "The first beam of light"
+                },
+                {
+                    "date": "2017-12-31",
+                    "title": "Family"
+                },
+                {
+                    "date": "2017-12-31",
+                    "title": "Children of the forest"
+                },
+                {
+                    "date": "2017-12-31",
+                    "title": "Waiting"
+                },
+                {
+                    "date": "2016-12-31",
+                    "title": "Flowing space"
+                },
+                {
+                    "date": "2017-12-31",
+                    "title": "Successful landing"
+                },
+                {
+                    "date": "2016-12-31",
+                    "title": "Light and heavy"
+                },
+                {
+                    "date": "2018-12-31",
+                    "title": "Valor and romance"
+                },
+                {
+                    "date": "2018-12-31",
+                    "title": "Harrowing"
+                },
+                {
+                    "date": "2018-12-31",
+                    "title": "The visitor"
+                },
+                {
+                    "date": "2018-12-31",
+                    "title": "Who"
+                },
+                {
+                    "date": "2018-12-31",
+                    "title": "Grandpa"
+                },
+                {
+                    "date": "2016-12-31",
+                    "title": "Peacefull daybreak is here"
+                },
+                {
+                    "date": "2017-12-31",
+                    "title": "Still with us"
+                },
+                {
+                    "date": "2017-12-31",
+                    "title": "Between reality and illusion"
+                },
+                {
+                    "date": "2017-12-31",
+                    "title": "Old light New life"
+                },
+                {
+                    "date": "2018-12-31",
+                    "title": "Reflections on industrialization"
                 }
             ]
         },
