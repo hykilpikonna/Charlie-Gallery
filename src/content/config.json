@@ -41,13 +41,29 @@
             "posts":
             [
                 {
+                    "date":"2016-06-28",
+                    "title":"Old time",
+                    "format":"jpg"
+                },
+
+                {
+                    "date":"2017-11-23",
+                    "title":"The ladder to the sky",
+                    "format":"jpg"
+                },
+                {
+                    "date":"2018-09-03",
+                    "title":"From afar",
+                    "format":"jpg"
+                },
+                {
                     "date":"2017-08-08",
                     "title":"The quietness before dawn"
                 },
                 {
-                    "date":"2019-10-10",
-                    "title":"The thinker",
-                    "description": "self portrait"
+                    "date":"2016-06-28",
+                    "title":"The eye of the night",
+                    "format":"jpg"
                 }
             ]
         },
