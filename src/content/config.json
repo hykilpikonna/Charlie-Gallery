@@ -20,7 +20,7 @@
         "default_title": "Untitled",
         "default_format": "jpg",
         "author": "Charlie",
-        "default_type": "Photography"
+        "default_type": "Drawing & Painting"
     },
     "types":
     [
@@ -34,12 +34,12 @@
                     "title": "Time stands still Life moves on"
                 },
                 {
-                    "date": "2018-12-30",
-                    "title": "The first beam of light"
-                },
-                {
                     "date": "2017-12-31",
                     "title": "Family"
+                },
+                {
+                    "date": "2018-12-30",
+                    "title": "The first beam of light"
                 },
                 {
                     "date": "2017-12-31",
