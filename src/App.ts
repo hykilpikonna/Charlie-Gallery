@@ -120,7 +120,7 @@ export default class App extends Vue
         });
 
         // Sort by date
-        this.artworks.sort((a, b) => b.date.getTime() - a.date.getTime());
+        // this.artworks.sort((a, b) => b.date.getTime() - a.date.getTime());
 
         // Add home as a type
         if (this.config.types[0].type != 'Home')
