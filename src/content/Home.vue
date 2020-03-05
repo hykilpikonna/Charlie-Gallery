@@ -1,43 +1,28 @@
 <template>
     <div id="home">
         <p>
-            这里是我的网站. 写点别的
+        Art to me is an idea, an expression, and most importantly a lifestyle.
+        Visual arts use their surface appearance to evoke deeper inspirations,
+        which can vary based on who the viewer is. Art takes various forms and
+        is not limited to just painting, photography or music even though they
+        might be the most direct to express artistic feelings.
         </p>
         <p>
-            Morbi accumsan magna efficitur maximus aliquam. Cras sed orci libero.
-            Suspendisse finibus blandit nisl nec laoreet. Vestibulum vitae luctus augue.
-            Ut non purus magna. Cras in iaculis elit.
-            Fusce quis odio dictum, accumsan diam sed, rhoncus nulla.
+        My life circles around Art and without it, my personal hobbies would have
+        never developed:  I like the speed and beautiful moves in fencing, mysterious
+        sleight of hand in modern magic, profound and perfectly presented plot in
+        movies, and intense motions in cardistry. Sometimes, what really catches me
+        is just a feeling, a feeling of art which is usually profound, mysterious,
+        and hard to be explained with human language. This feeling often comes
+        from life but goes beyond reality. It encourages me to use different kinds
+        of medias to present what I see as an artist myself, through which I hope
+        will inspire others.
         </p>
         <p>
-            Curabitur pretium ultricies erat vel placerat.
-            Pellentesque quis leo urna. Vestibulum nec ultricies leo.
-            Curabitur sit amet est eget elit tempus efficitur a nec ex.
-            Morbi volutpat iaculis nibh, at scelerisque massa.
-            Donec pulvinar est id dui suscipit feugiat.
-            Integer mauris risus, tincidunt eget accumsan ac, finibus in arcu.
-            Pellentesque auctor felis sed ex posuere, sit amet mollis odio sodales.
-            Donec ante sapien, luctus vitae commodo non, feugiat vitae orci.
-            Sed eu justo porttitor dolor tempus vestibulum.
-        </p>
-        <p>
-            Cras auctor justo at justo placerat lacinia.
-            Donec at mauris porttitor, tempor ligula ut, placerat eros.
-            Mauris ante nulla, ultrices id euismod vitae, rhoncus ut ligula.
-            Nullam ac fermentum nunc. Nullam at eleifend nibh, vel cursus diam.
-            Donec vehicula pulvinar nunc nec facilisis. Pellentesque at tempus nisi.
-            Donec tincidunt odio nec risus tincidunt, non bibendum libero vehicula.
-            Nunc euismod tincidunt magna, vitae ultricies sapien euismod at.
-            Ut sed justo ante.
-        </p>
-        <p>
-            Nulla dapibus consequat lorem non euismod. Nulla at ex nisi.
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Vestibulum ac lectus felis.
-            Vivamus consectetur diam non diam bibendum imperdiet.
-            Sed ut faucibus arcu. Sed sit amet porta lacus.
-            Nunc efficitur, nibh eget interdum tempus, metus massa ultricies velit,
-            ut tempus ex turpis sit amet turpis. Mauris malesuada vel sem placerat finibus.
+        Drawing, painting and photography are the three parts I would love to
+        share with on this website. Also, I’d like to share some of my magic
+        teaching videos. If any questions, you are very welcome to email 
+        me (ytian2021@gmail.com).
         </p>
     </div>
 </template>
