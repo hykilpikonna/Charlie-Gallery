@@ -50,6 +50,26 @@
                     "description": "Colored pencils"
                 },
                 {
+                    "date": "2019-04-22",
+                    "title": "The thinker",
+                    "description": "colored pencils"
+                },
+                {
+                    "date": "2019-07-06",
+                    "title": "Azure",
+                    "description": "colored pencils"
+                },
+                {
+                    "date": "2019-08-06",
+                    "title": "Eight ball",
+                    "description": "colored pencils"
+                },
+                {
+                    "date": "2019-08-30",
+                    "title": "Prophecy",
+                    "description": "colored pencils"
+                },
+                {
                     "date": "2017-12-31",
                     "title": "Waiting",
                     "description": "Ink,Colored pencils"
@@ -248,9 +268,9 @@
             "posts":
             [
                 {
-                    "date": "2019-12-07",
-                    "title": "色彩 ~雪花の盾~",
-                    "file": "https://www.youtube.com/watch?v=QLDQ4VKrmvQ"
+                    "date": "2020-03-01",
+                    "title": "C3 Color Change Tutorial re make",
+                    "file": "https://www.youtube.com/watch?v=cHw8Gqhynu0"
                 }
             ]
         }
