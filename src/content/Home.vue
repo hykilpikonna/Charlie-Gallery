@@ -32,7 +32,7 @@
         you are very welcome to contact me by e-mail at ytian2021@gmail.com.
         </p>
         <p>
-        Late by not least, Special Thanks to Jack Gui from St. John’s Prep high school, who helped
+        Late by not least, Special Thanks to Gui from St. John’s Prep high school, who helped
         me to create this wonderful website through his skillful coding.
         </p>
     </div>
